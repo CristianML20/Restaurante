@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.example_Restaurant_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.example.Restaurant.entity.ListaUser</class>
+    <class>com.example.Restaurant.entity.Lista</class>
+    <class>com.example.Restaurant.entity.Pedidos</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-52-71-69-66.compute-1.amazonaws.com:5432/db9igp480e61s1"/>
+      <property name="javax.persistence.jdbc.user" value="hqftcoymnsqpaa"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="d5ed901ebf043a95a17e7d57732deae733019a753f3eef3a6738482b8806d92c"/>
+    </properties>
+  </persistence-unit>
+</persistence>
